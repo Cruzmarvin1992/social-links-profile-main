@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: hsl(0, 0%, 8%);
+   font-size: 14px;
+}
+
+main{
+    background-color:   hsl(0, 0%, 12%);
+    border: 1px  solid black;
+    width: 380px;
+    height: 550px; 
+    margin: 50px auto;
+    border-radius: 10px;
+     
+}
+
+.jr{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.London{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.frd{
+    /* margin-left: 42px; */
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+img{
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 160px;
+    margin-top: 10px
+    
+    
+}
+
+#Row{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 24px;
+    font-weight: bold;
+    
+
+}
+#Row div{
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+
+}
+
